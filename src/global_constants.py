@@ -13,7 +13,7 @@ APPROVED_LABEL_NAME = "Status: Triage Approved"
 DENIED_LABEL_NAME = "Status: Triage Denied"
 PENDING_LABEL_NAME = "Status: Pending"
 
-ALIASES_PATH = "databases.json"  # 負の遺産
+ALIASES_PATH = "aliases.json"  # 負の遺産
 ALIAS_NAME_PATTERN = r"^[a-zA-Z0-9_-]+$"
 
 APPROVED_ISSUE_COMMENT = """
