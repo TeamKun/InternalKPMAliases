@@ -4,7 +4,7 @@ ISSUE_NUMBER = int(os.getenv("ISSUE_NUMBER"))
 
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 ORG_NAME = "TeamKun"
-REPO_NAME = "KPMInternalAliases"
+REPO_NAME = "INternalKPMAliases"
 PERMISSION_LEVEL = "read"
 CHECK_USER_IN_ORG = True
 
@@ -13,7 +13,7 @@ APPROVED_LABEL_NAME = "Status: Triage Approved"
 DENIED_LABEL_NAME = "Status: Triage Denied"
 PENDING_LABEL_NAME = "Status: Pending"
 
-ALIASES_PATH = "aliases.json"  # 負の遺産
+ALIASES_PATH = "database.json"  # 負の遺産
 ALIAS_NAME_PATTERN = r"^[a-zA-Z0-9_-]+$"
 
 APPROVED_ISSUE_COMMENT = """
